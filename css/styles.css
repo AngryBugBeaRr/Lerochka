@@ -1,5 +1,6 @@
 body {
     min-width: 700px;
+    max-width: 100%;
     font-family: Comfortaa;
     color: #FFFFFF;
     background-color: #171717;
@@ -28,27 +29,28 @@ body {
     font-size: 48px;
 }
 .AboutMe {
-    min-width: 700px;
-    max-width: 1440px;
-    height: 876.12px;
     margin-left: auto;
     margin-right: auto;
+}
+.AboutMe > img {
+    width: 100%;
 }
 .Projects {
     text-align: center;
     font-size: 48px;
     font-weight: 400;
     height: 254px;
-    transform: translate(0, 25%);
+    transform: translate(0, 29%);
 }
 .imgs {
-    min-width: 700px;
-    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
+.imgs > img {
+    width: 100%;
+}
 .footer {
-    transform: translate(0, 30%);
+    transform: translate(0, 45%);
 }
 .footer > p {
     font-size: 48px;
@@ -60,10 +62,27 @@ body {
     font-weight: medium;
     display: flex;
     justify-content: center;
-    height: 540px;
+    height: 340px;
+    margin-right: 55px;
 }
 .footer-bottom > a {
     margin-left: 50px;
     color: #ffffff;
     text-decoration: none;
 }
+.dropdown-content {
+    display: none;
+    background-color: #171717;
+  }
+  .whr-drop-main > img {
+      width: 100%;
+  }
+  .whr-drop-hide {
+    display: block;
+  }
+.dropbtn1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+  }

@@ -1,12 +1,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>StroiSnabRegion</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lerochka</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <div class="header">
@@ -17,7 +18,7 @@
             </div>
             <div class="bottom-header">
                 <p>Hi! I'm Valeria Zevakina, and..</p>
-                <p class="p2">.. I'm graphics designer.</p>
+                <p class="p2">.. I'm graphic designer.</p>
             </div>
         </div>
         <div class="AboutMe">
@@ -27,7 +28,15 @@
             <p>My Projects</p>
         </div>
         <div class="imgs">
-            <img src="img/CSIT.png">
+            <img onclick="myFunction()" class="dropbtn" src="img/CSIT.png">
+            <div id="myDropdown" class="dropdown-content">
+                <div class="whr-drop-main">
+                <img src="img/Dropdown1.png">
+                <img src="img/Dropdown2.png">
+                <img src="img/Dropdown3.png">
+                <div class="dropbtn1"><span class="btn1" onclick="myFunction()">Roll Up CSIT Project</span></div>
+                </div>
+            </div>
             <img src="img/GDSC.png">
             <img src="img/DentalCenter.png">
             <img src="img/Boho.png">
