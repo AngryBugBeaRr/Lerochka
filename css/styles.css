@@ -86,3 +86,6 @@ body {
     text-align: center;
     margin-bottom: 40px;
   }
+section > img {
+    width: 100%;
+}
