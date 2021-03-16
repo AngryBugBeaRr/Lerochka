@@ -5,9 +5,6 @@ body {
     background-color: #171717;
     margin: 0;
 }
-.header {
-
-}
 .head-header {
     font-size: 30px;
     font-weight: medium;
@@ -34,21 +31,39 @@ body {
     min-width: 700px;
     max-width: 1440px;
     height: 876.12px;
-    background-image: url(../img/Valeria.png);
-    background-color: #171717;
     margin-left: auto;
     margin-right: auto;
 }
-.AboutMe > p {
-    text-align: end;
-    transform: translate(0, 52px);
-    font-weight: 700;
+.Projects {
+    text-align: center;
     font-size: 48px;
-}
-.AboutMe > span {
-    max-width: 506px;
     font-weight: 400;
+    height: 254px;
+    transform: translate(0, 25%);
+}
+.imgs {
+    min-width: 700px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    transform: translate(0, 30%);
+}
+.footer > p {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-bottom {
     font-size: 30px;
-    justify-content: end;
-    transform: translate(0, 152px);
-} 
+    font-weight: medium;
+    display: flex;
+    justify-content: center;
+    height: 540px;
+}
+.footer-bottom > a {
+    margin-left: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
